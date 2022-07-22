@@ -18,6 +18,29 @@ html {
  /* margin-left: 10rem; */
 }
 .first_half{
-  border: 1px solid black;
+  border: 2px solid rgb(218, 43, 43);
   height: 80rem;
+  display: flex;
+  justify-content: space-between;
+}
+.left_first_half{
+  border: 1px solid rgb(199, 5, 5);
+  height: 38rem;
+  width: 45rem;
+}
+.right_first_half{
+  border: 1px solid black;
+  height: 38rem;
+  width: 104rem;
+}
+b{
+  font-size: 1.5rem;
+
+}
+ul{
+  font-size: 1.5rem;
+}
+.awardImg{
+   width: 20rem;
+   margin-left: 10rem;
 }
