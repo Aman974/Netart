@@ -1,10 +1,17 @@
-import './App.css';
-
+import "./App.css";
+import logo from "../src/assests/logo.png";
 function App() {
   return (
-    <div >
-     <h1> Hello </h1>
-    </div>
+    <>
+      <div className="logoDiv">
+        <img src={logo} className="logo" />
+      </div>
+
+      <div className="first_half">
+        <div className="left_first_half"></div>
+        <div className="right_first_half"></div>
+        </div>
+    </>
   );
 }
 

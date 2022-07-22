@@ -1,3 +1,23 @@
 html {
   font-size: 62.5%;
+  height:100%;
+  background: linear-gradient(0deg, rgba(255,248,170,1) 20%, rgba(255,255,255,1) 100%)no-repeat;
+}
+
+.logoDiv{
+  /* border: 3px solid red; */
+  margin: auto;
+  height: 9rem;
+  width: 30rem;
+}
+.logo{
+  /* border: 3px solid red; */
+  margin: auto;
+  height: 8rem;
+  width: 25rem;
+ /* margin-left: 10rem; */
+}
+.first_half{
+  border: 1px solid black;
+  height: 80rem;
 }
