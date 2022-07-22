@@ -42,20 +42,35 @@ ul{
 }
 .awardImg{
    width: 20rem;
-   position: relative;
+   /* position: relative; */
    margin: auto;
-   margin-left: 10rem;
+   margin-left: 15rem;
 }
-
+.awardCeremony{
+  width: 100%;
+  height: 45rem;
+}
 @media (max-width:998px){
   html{
     font-size: 55%
   }
+  .awardImg{
+    width: 20rem;
+    /* position: relative; */
+    margin: auto;
+    margin-left: 4rem;
+ }
 }
 
 @media (max-width:768px){
   html{
     font-size: 45%
   }
+  .awardImg{
+    width: 20rem;
+    /* position: relative; */
+    margin: auto;
+    margin-left: 4rem;
+ }
 }
 
