@@ -10,7 +10,7 @@ function App() {
 
       <div className="first_half">
         <div className="left_first_half">
-          < img src={award} className="awardImg"/>
+          < img src={award} className="awardImg" alt=""/>
         </div>
         <div className="right_first_half">
         <b>  C.R.I. PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for the 4th time. </b>
