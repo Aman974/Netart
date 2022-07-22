@@ -18,18 +18,18 @@ html {
  /* margin-left: 10rem; */
 }
 .first_half{
-  border: 2px solid rgb(218, 43, 43);
+  /* border: 2px solid rgb(218, 43, 43); */
   height: 80rem;
   display: flex;
   justify-content: space-between;
 }
 .left_first_half{
-  border: 1px solid rgb(199, 5, 5);
+  /* border: 1px solid rgb(199, 5, 5); */
   height: 38rem;
   width: 45rem;
 }
 .right_first_half{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 38rem;
   width: 104rem;
 }
@@ -42,5 +42,20 @@ ul{
 }
 .awardImg{
    width: 20rem;
+   position: relative;
+   margin: auto;
    margin-left: 10rem;
 }
+
+@media (max-width:998px){
+  html{
+    font-size: 55%
+  }
+}
+
+@media (max-width:768px){
+  html{
+    font-size: 45%
+  }
+}
+
