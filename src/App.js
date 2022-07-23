@@ -61,8 +61,7 @@ function App() {
           <img src={product} className="product_img" alt="" />
         </div>
         <div className="product_cap_div">
-          <b>
-            {" "}
+          <b style={{ fontSize: "1.3rem" }}>
             Valves - Pumps - Pipes - IoT Drives & Controllers - Wires & Cables -
             Solar Systems - Motors{" "}
           </b>
@@ -75,9 +74,9 @@ function App() {
         <div className="hr_below">
           <b>
             CHEMICALS & PROCESS | POWER WATER & WASTE | WATER OILS & GAS PHARMA
-            | SUGARS & DISTILLERIES | PAPER & PULP | MARINE & DEFENCE | METAL & MINING
-            | FOOD & BEVERAGE | PETROCHEMICAL & REFINERIES | SOLAR BUILDING HVAC FIRE
-            FIGHTING | AGRICULTURE & RESIDENTIAL
+            | SUGARS & DISTILLERIES | PAPER & PULP | MARINE & DEFENCE | METAL &
+            MINING | FOOD & BEVERAGE | PETROCHEMICAL & REFINERIES | SOLAR
+            BUILDING HVAC FIRE FIGHTING | AGRICULTURE & RESIDENTIAL
           </b>
         </div>
         <footer>
