@@ -2,6 +2,11 @@ import "./App.css";
 import logo from "../src/assests/logo.png";
 import award from "../src/assests/1.png";
 import awardCeremony from "../src/assests/2.png";
+import product from "../src/assests/3.png";
+
+import { HiOutlinePhone } from "react-icons/hi";
+import { BsFacebook } from "react-icons/bs";
+import { TbWorld } from "react-icons/tb";
 function App() {
   return (
     <>
@@ -42,6 +47,53 @@ function App() {
             Sabha & Shri. Raj Kumar Singh, Honorable Minister of State.
           </b>
         </div>
+      </div>
+      <div className="second_half">
+        <div className="hr_below">
+          <b>
+            INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY
+            RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF
+            POWER FOR THE NATION.
+          </b>
+        </div>
+
+        <div className="product_div">
+          <img src={product} className="product_img" alt="" />
+        </div>
+        <div className="product_cap_div">
+          <b>
+            {" "}
+            Valves - Pumps - Pipes - IoT Drives & Controllers - Wires & Cables -
+            Solar Systems - Motors{" "}
+          </b>
+        </div>
+        <div className="hr"></div>
+
+        <div className="hr_below">
+          <b>C.R.I. FLUID SYSTEMS PRODUCTS CATER TO DIVERSE SEGMENTS </b>
+        </div>
+        <div className="hr_below">
+          <b>
+            CHEMICALS & PROCESS | POWER WATER & WASTE | WATER OILS & GAS PHARMA
+            | SUGARS & DISTILLERIES | PAPER & PULP | MARINE & DEFENCE | METAL & MINING
+            | FOOD & BEVERAGE | PETROCHEMICAL & REFINERIES | SOLAR BUILDING HVAC FIRE
+            FIGHTING | AGRICULTURE & RESIDENTIAL
+          </b>
+        </div>
+        <footer>
+          <div className="fo_pho">
+            <HiOutlinePhone />
+            tollfree 180012001234
+          </div>
+          <div className="fo_pho">
+            <BsFacebook />
+            www.facebook.com/cripumps
+          </div>
+          <div className="fo_pho">
+            <TbWorld />
+            www.cripumps.com
+          </div>
+        </footer>
       </div>
     </>
   );
